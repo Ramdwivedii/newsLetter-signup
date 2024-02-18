@@ -33,7 +33,6 @@ app.post("/", function (req, res) {
     method: "post",
     auth: "ramdwivedi:2e053594756081193bfa0792e5fecd97-us22",
   };
-
   const request = https.request(url, options, function (response) {
     if (response.statusCode == 200) {
       res.sendFile(__dirname + "/success.html");
