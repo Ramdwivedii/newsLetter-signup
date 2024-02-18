@@ -2,11 +2,10 @@
   "name": "newsletter-signup",
   "version": "1.0.0",
   "description": "Automate your email outreach with pre-built Customer Journeys",
-  "main": "app.js",
   "engines": {
     "node": "18.x" },
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
  
   "dependencies": {
