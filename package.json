@@ -4,6 +4,9 @@
   "description": "Automate your email outreach with pre-built Customer Journeys",
   "engines": {
     "node": "18.x" },
+    "vercel": {
+      "public": true
+    },
   "scripts": {
     "start": "node index.js"
   },
